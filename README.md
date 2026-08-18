@@ -1,37 +1,48 @@
-# Saiyaaj — Developer Portfolio
+# 🚀 Saiyaaj Portfolio
 
-A modern, responsive, and interactive personal portfolio website built to showcase my skills, projects, experience, education, and journey as a Full Stack Web Developer.
+<p align="center">
+  A modern, responsive, and interactive developer portfolio built with React, Tailwind CSS, Framer Motion, and Three.js.
+</p>
 
-Designed with a focus on clean UI, smooth animations, interactive elements, and a modern developer experience.
+<p align="center">
+  <a href="https://github.com/Saiyaaj/Portfolio">
+    <img src="https://img.shields.io/badge/View%20Repository-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+  </a>
+</p>
 
-<br />
+---
 
-## ✨ Overview
+## 📌 About The Project
 
-This portfolio represents my work, technical skills, and professional journey in web development. It includes interactive sections for projects, experience, education, skills, and contact information.
+This repository contains my personal developer portfolio, designed to showcase my technical skills, projects, professional experience, education, certifications, and achievements.
 
-The website is designed to deliver a smooth and engaging user experience across desktop, tablet, and mobile devices.
+The portfolio focuses on delivering a modern and engaging user experience through responsive design, smooth animations, interactive UI elements, and a 3D developer-themed visual.
 
-## 🚀 Features
+---
 
-- Modern and responsive user interface
-- Interactive navigation with smooth transitions
-- Smooth animations powered by Framer Motion
-- Interactive 3D developer visual
-- Responsive design for multiple screen sizes
-- Skills and technology showcase
-- Featured project section
-- Professional experience timeline
-- Education and certification section
-- Contact section
-- Modern hover effects and micro-interactions
+## ✨ Features
+
+- 🎨 Modern and responsive user interface
+- 📱 Mobile, tablet, and desktop responsive design
+- 🧭 Interactive animated navigation
+- ✨ Smooth scroll-based animations
+- 🖱️ Interactive hover and cursor effects
+- 🌌 3D developer-themed hero visual
+- 🛠️ Skills and technology showcase
+- 💼 Featured projects section
+- 📈 Professional experience timeline
+- 🎓 Education and professional training
+- 🏆 Achievement showcase
+- 📬 Contact section
+- ⚡ Fast development and production builds with Vite
+
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
 
 - React
-- Vite
 - JavaScript
 - HTML5
 - CSS3
@@ -46,44 +57,63 @@ The website is designed to deliver a smooth and engaging user experience across 
 
 ### Development Tools
 
+- Vite
 - Git
 - GitHub
 - VS Code
 - npm
 
+---
+
 ## 📂 Featured Projects
 
 ### 💼 Employee Management System
 
-A full-stack web application designed to manage employee information through a clean, responsive, and user-friendly interface.
+A modern full-stack web application designed to efficiently manage employee information through a clean, responsive, and user-friendly interface.
 
-**Tech Stack:** React, Node.js, Express.js, MongoDB
+**Tech Stack:**
+
+`React` · `Node.js` · `Express.js` · `MongoDB`
 
 ---
 
 ### 🚀 Personal Portfolio
 
-A modern and interactive developer portfolio built to showcase skills, projects, professional experience, education, and technical expertise.
+A modern and interactive developer portfolio showcasing my skills, projects, professional experience, education, and technical expertise.
 
-**Tech Stack:** React, Tailwind CSS, Framer Motion, Three.js
+The project includes smooth animations, responsive layouts, interactive UI elements, and a 3D developer-themed visual.
+
+**Tech Stack:**
+
+`React` · `Tailwind CSS` · `Framer Motion` · `Three.js`
+
+🔗 **Repository:** https://github.com/Saiyaaj/Portfolio
 
 ---
 
-### 🏠 Dwell Discover
+### 🎮 Tic Tac Toe Arena
 
-A property discovery platform designed to help users discover nearby PGs and hostels through an intuitive and responsive interface.
+A full-stack MERN application featuring interactive Tic Tac Toe gameplay, a responsive interface, and structured application logic.
 
-**Tech Stack:** React, Node.js, Express.js, MongoDB
+**Tech Stack:**
+
+`React` · `Node.js` · `Express.js` · `MongoDB`
+
+🔗 **Repository:** https://github.com/Saiyaaj/TicTacToe
+
+---
 
 ## 📁 Project Structure
 
 ```text
-portfolio/
+Portfolio/
 │
 ├── public/
 │
 ├── src/
+│   │
 │   ├── components/
+│   │   │
 │   │   ├── layout/
 │   │   │   ├── Navbar.jsx
 │   │   │   └── Footer.jsx
@@ -101,7 +131,13 @@ portfolio/
 │   │       └── DeveloperCore.jsx
 │   │
 │   ├── App.jsx
-│   └── main.jsx
+│   ├── main.jsx
+│   └── index.css
 │
+├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
+├── package-lock.json
+├── vite.config.js
 └── README.md
