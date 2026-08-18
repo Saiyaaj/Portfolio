@@ -7,38 +7,38 @@ const projects = [
     category: "Full Stack Web Application",
     description:
       "A modern Employee Management System designed to efficiently manage employee information through a clean, responsive, and user-friendly interface.",
-    tech: ["React", "Node.js", "Express.js", "MongoDB"],
+    tech: ["React, ", "Node.js, ", "Express.js, ", "MongoDB"],
     github: "https://github.com/Saiyaaj/employee-management-system",
     live: "",
     accent: "purple",
     icon: "💼",
   },
 
-{
+  {
+    number: "02",
+    title: "Personal Portfolio",
+    category: "Frontend Web Application",
+    description:
+      "A modern and interactive personal portfolio website showcasing my skills, projects, experience, education, and contact information through a responsive and visually engaging user interface.",
+    tech: ["React, ", "Tailwind CSS, ", "Framer Motion, ", "Three.js"],
+    github: "https://github.com/Saiyaaj/Portfolio",
+    live: "",
+    accent: "blue",
+    icon: "🚀",
+  },
+
+ {
   number: "03",
-  title: "Dwell Discover",
-  category: "Property Discovery Platform",
+  title: "Tic Tac Toe Arena",
+  category: "Full Stack MERN Web Application",
   description:
-    "A modern property discovery platform that helps users discover nearby PGs and hostels through an intuitive and responsive interface, making accommodation searching easier and more accessible.",
-  tech: ["React", "Node.js", "Express.js", "MongoDB"],
-  github: "https://github.com/Shailavi04/dwell-discover",
+    "A full-stack Tic Tac Toe application built using the MERN stack, featuring interactive gameplay, user-friendly design, responsive interactions, and structured application logic.",
+  tech: ["React,", "Node.js, ", "Express.js, ", "MongoDB"],
+  github: "https://github.com/Saiyaaj/TicTacToe",
   live: "",
   accent: "pink",
-  icon: "🏠",
+  icon: "🎮",
 },
-
-  {
-    number: "03",
-    title: "Tic Tac Toe Arena",
-    category: "Interactive Web Game",
-    description:
-      "An interactive Tic Tac Toe game featuring a modern interface, engaging gameplay, responsive interactions, and structured game logic.",
-    tech: ["HTML5", "CSS3", "JavaScript"],
-    github: "https://github.com/Saiyaaj/TicTacToe",
-    live: "",
-    accent: "pink",
-    icon: "🎮",
-  },
 ];
 
 function Projects() {
